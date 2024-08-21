@@ -5,7 +5,7 @@ Below is the reference of how the login flow works.
 
 ![alt text](https://github.com/Vamshi-Msi/CyberArk/blob/main/PSM%20for%20SAML.jpg?raw=true)
 
-#SAML Auth For PSM Login Flow#
+##SAML Auth For PSM Login Flow##
 
 
 User Requests Access: The user tries to access the target application through PSM (Service Provider).
