@@ -19,3 +19,7 @@ In this demonstration we will configure SAML authentication for PSM for Windows
 - **User Redirected Back to SP:** The identity provider sends the SAML response back to the service provider (PSM) via the user’s browser.
 
 - **SP Grants Access:** The service provider (PSM) validates the SAML response and grants the user access to the requested server/application/database etc once the user details and the authorizations are validated by vault.
+
+# Known limitations and pre-requisites are highlites in the below article
+
+[url](https://community.cyberark.com/s/article/Setting-up-SAML-Authentication-PSM-v14-with-Azure)
