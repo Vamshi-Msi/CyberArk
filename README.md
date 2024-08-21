@@ -22,4 +22,4 @@ In this demonstration we will configure SAML authentication for PSM for Windows
 
 # Known limitations and pre-requisites are highlites in the below article
 
-[url](https://community.cyberark.com/s/article/Setting-up-SAML-Authentication-PSM-v14-with-Azure)
+https://community.cyberark.com/s/article/Setting-up-SAML-Authentication-PSM-v14-with-Azure
