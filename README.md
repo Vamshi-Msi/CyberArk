@@ -1,7 +1,7 @@
 # CyberArk
 In this demonstration we will configure SAML authentication for PSM for Windows
 
-Below is the reference of how the login flow works.
+# Below is the reference of how the login flow works.
 
 ![alt text](https://github.com/Vamshi-Msi/CyberArk/blob/main/PSM%20for%20SAML.jpg?raw=true)
 
