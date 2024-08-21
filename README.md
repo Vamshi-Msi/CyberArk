@@ -61,6 +61,6 @@ https://community.cyberark.com/s/article/Setting-up-SAML-Authentication-PSM-v14-
 
 ## PVWA Configuration
 
-Navigate to **Administartion < Configuration Options < Options < Privilege Session Management < Server Settings < Advanced Settings < SAML Settings**
+Navigate to **Administartion < Configuration Options < Options < Privilege Session Management < General Settings < Server Settings < Advanced Settings < SAML Settings**
 
 ![image](https://github.com/user-attachments/assets/2273a7f5-9d24-4f06-a337-07e1e0bb2db8)
