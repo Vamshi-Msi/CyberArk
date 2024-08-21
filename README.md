@@ -41,5 +41,23 @@ https://community.cyberark.com/s/article/Setting-up-SAML-Authentication-PSM-v14-
 
  
 
+![image](https://github.com/user-attachments/assets/dceedb17-ab0d-40b3-bbfd-93ccf99952c9)
 
+
+
+![image](https://github.com/user-attachments/assets/a766d046-53ab-4d84-b208-a7365bf9fed2)
+
+
+
+![image](https://github.com/user-attachments/assets/c27169b3-808c-4fc7-8ca8-0d4af8faafec)
+
+
+
+![image](https://github.com/user-attachments/assets/b526e643-e813-4af1-bbaa-ea3fcfa54404)
+
+
+![image](https://github.com/user-attachments/assets/dd4b4277-f5b7-4411-ae9f-03b287086d9a)
+
+
+## PVWA Configuration
 
