@@ -20,7 +20,7 @@ In this demonstration we will configure SAML authentication for PSM for Windows
 
 - **SP Grants Access:** The service provider (PSM) validates the SAML response and grants the user access to the requested server/application/database etc once the user details and the authorizations are validated by vault.
 
-# Known limitations and pre-requisites are highlites in the below article
+# Known limitations and pre-requisites are highlited in the below article
 
 https://community.cyberark.com/s/article/Setting-up-SAML-Authentication-PSM-v14-with-Azure
 
@@ -90,3 +90,21 @@ aadcdn.msftauth.net,aadcdn.msftauthimages.net,aadcdn.msauthimages.net,logincdn.m
 
 
 ## PSM Configuration
+
+On the PSM you need to import the SAML certificate into the appropriate certificate stores. If the SAML certificate is self-signed, you need to add it to the Trusted Root Certification Authorities store and you need to create a new certificate store called Trusted IdP and add the certificate there as well. 
+
+**To create the new store, run this command in an administrative PowerShell:** 
+ 
+
+     New-Item -Path "cert:\LocalMachine\Trusted IdP" 
+ 
+
+If the SAML certificate is signed by a PKI or an actual CA server, then add the certificate chain to the appropriate certificate stores and the SAML certificate in the Trusted IdP store.
+
+
+**Configuration is not completed! It's testing time...!**
+
+RDP file for your reference has been uploaded 
+
+
+
