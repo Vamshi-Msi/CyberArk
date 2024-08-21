@@ -107,4 +107,4 @@ If the SAML certificate is signed by a PKI or an actual CA server, then add the 
 RDP file for your reference has been uploaded 
 
 
-
+SAML auth for PSM.mp4
