@@ -63,4 +63,22 @@ https://community.cyberark.com/s/article/Setting-up-SAML-Authentication-PSM-v14-
 
 Navigate to **Administartion < Configuration Options < Options < Privilege Session Management < General Settings < Server Settings < Advanced Settings < SAML Settings**
 
+**Configure required settings as listed below:**
+
+- **SamlEnabled** = Yes
+
+- **IdentityProviderLoginURL** = <Your IdP login URL> (for Azure this is https://login.microsoftonline.com/<tenantID>/saml2) 
+
+**httpsWhitelist** = Any domain that the client will contact during SAML authentication. The domain specified in IdentityProviderLoginURL and ServiceProviderName is whitelisted by default. 
+
+Any URL that’s needed for the authentication to work needs to be added to the httpWhitelist parameter in the PVWA. For Azure it should look something like this:
+[image]![image](https://github.com/user-attachments/assets/1da43456-5ac3-4663-aff1-4695f831746a)
+
+
+IdentityProviderCertificateSN = <serialnumber of the SAML certificate from your IdP> 
+
+ServiceProviderName = The Entity ID of your SAML authentication application. It is recommended to set up a dedicated SAML application for PSM SAML Authentication.  
+ 
+NOTE: This Entity ID needs to be in all lower-case characters, and it’s recommended that you use your PSM FQDN (either the load balanced FQDN or the single PSM FQDN if you only have one PSM in your environment) as per docs. So the format would be “https://psm-fqdn.domain.com”  
+
 ![image](https://github.com/user-attachments/assets/2273a7f5-9d24-4f06-a337-07e1e0bb2db8)
