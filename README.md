@@ -74,7 +74,9 @@ Navigate to **Administartion < Configuration Options < Options < Privilege Sessi
 Any URL that’s needed for the authentication to work needs to be added to the httpWhitelist parameter in the PVWA. For Azure it should look something like this:
 
 
-![image](https://github.com/user-attachments/assets/1da43456-5ac3-4663-aff1-4695f831746a)
+**For Azure, whitelist below domains:**
+
+aadcdn.msftauth.net,aadcdn.msftauthimages.net,aadcdn.msauthimages.net,logincdn.msftauth.net,login.live.com,msauth.net,aadcdn.microsoftonline-p.com,microsoftonline-p.com, aadcdn.msftauth.net,aadcdn.msauth.net,login.live.com
 
 
 - **IdentityProviderCertificateSN** = <serialnumber of the SAML certificate from your IdP> 
@@ -85,3 +87,6 @@ Any URL that’s needed for the authentication to work needs to be added to the 
              single PSM FQDN if you only have one PSM in your environment) as per docs. So the format would be “https://psm-fqdn.domain.com”  
 
 ![image](https://github.com/user-attachments/assets/2273a7f5-9d24-4f06-a337-07e1e0bb2db8)
+
+
+## PSM Configuration
