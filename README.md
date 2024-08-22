@@ -107,4 +107,5 @@ If the SAML certificate is signed by a PKI or an actual CA server, then add the 
 RDP file for your reference has been uploaded 
 
 
-[!video]
+
+https://github.com/user-attachments/assets/d0e6c874-8b8f-4514-9377-e8c801f8b15b
